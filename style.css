@@ -1,0 +1,193 @@
+form{
+    width: 50%;
+    margin: 0 auto;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+/* 標題區域 */
+.top-line {
+    background-color: rgb(103, 58, 183);
+    color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+}
+
+.title-area {
+    width: 590px;
+    height: 87.2px;
+    align-items: center;
+
+}
+.title-text {
+    box-sizing: border-box;
+    font-size: 24pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    color: rgb(32, 33, 36);
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0;
+}
+.sec-title-text {
+    font-size: 11pt;
+    line-height: 15pt;
+    letter-spacing: 0;
+    color: rgb(32, 33, 36);
+    margin-top: 12px;
+}
+
+.email-area { 
+    width: 590px;
+    height: 92px;
+    color: rgb(95, 99, 104);
+}
+
+.only-email {
+    width: 566px;
+    height: 48px;
+}
+.email {
+    width: 75%;
+    margin-top: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(95, 99, 104);
+}
+
+.no-common-items {
+    margin: 8px 0px 12px 0px;
+    align-items: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;  
+    color: rgb(95, 99, 104);
+    margin-bottom: 12px;
+}
+
+.required-text {
+    margin-top: 16px;
+    color: rgb(217, 48, 37);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+}
+
+.country-ddl {
+    border-radius: 4px;
+    max-width: none;
+    height: auto;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: rgba(0, 0, 0, .54);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    min-width: 112px;
+    padding-left: 16px;
+    padding-right: 48px;
+    text-align: left;
+}
+
+/* 共用 */
+section {
+    position: relative; 
+    width: 640px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 8px;
+    padding: 24px;
+    padding-top: 22px; 
+    padding-bottom: 16px;
+}
+
+.line-style {
+    border-top: 1px solid rgb(218, 220, 224);
+    left: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+.underline-input {
+  border: none;           /* 取消原本全部邊框 */
+  border-bottom: 1px solid rgba(192, 192, 192, 0.719);  /* 底線 */
+  outline: none;          /* 取消點擊時的藍色框線（選填） */
+  padding: 4px 0;         /* 上下內距調整，看起來不會太擠 */
+  margin-top: 16px;
+}
+
+/* 小標題間距 */
+.smalltitle-style {
+    width: 590px;
+    height: 24px;
+    color: rgb(32, 33, 36);
+    margin-bottom: 16px;
+}
+
+/* 項目間距 */
+.items-margin {
+    margin-bottom: 12px;
+}
+
+
+
+.flex-row {
+  width: 690px;
+  display: flex; /* flex 容器，子元素水平排列 */
+  flex-wrap: nowrap;   /* 預設：不換行 */
+  margin: 0 auto;
+}
+
+.btn-style {
+    background-color: rgb(103, 58, 183);
+    color: white;
+    border-radius: 4px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .25px;
+    padding: 0 24px;
+    border: none;
+}
+.btn-style:hover {
+  /* 滑鼠懸停時的樣式 */
+  background-color: rgb(123, 86, 185);
+}
+
+.btn-clear {
+    margin-left: auto;   /* 推到最右邊 */
+    background-color: transparent; /* 無背景色 */;
+    border: none; /* 移除邊框 */
+    cursor: pointer; /* 保留滑鼠指標效果 */
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(103, 58, 183);
+    
+}
+.btn-clear:hover {
+    /* 滑鼠懸停時的樣式 */
+    background-color: rgba(206, 185, 243, 0.541);
+}

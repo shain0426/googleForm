@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2E02表單練習</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: rgba(221, 190, 250, 0.219);">
+    <form action="#" method="post">
+        <section style="height: 180px;">
+            <div class="top-line"></div>
+            <div class="title-area">
+                <div class="title-text">F2E02 表單練習</div>
+                <div class="sec-title-text">僅供新尖兵 F2E02 表單切版練習作業</div>
+            </div>
+            <div class="line-style"></div>
+            <div class="email-area">
+                <div class="only-email">
+                    <div class="email">shain0203@gmail.com</div>
+                    <div class="no-common-items">未共用的項目</div>
+                </div>
+                <div class="line-style" style="top: 170px;"></div>
+                <div class="required-text">* 表示必填問題</div>
+            </div>
+        </section>
+
+        <section style="height: 104px;">
+            <div class="smalltitle-style required">姓名</div>
+            <input class="underline-input" style="width: 295px;" type="text" name="name" placeholder="您的回答">
+        </section>
+
+        <section style="height: 104px;">
+            <div class="smalltitle-style required">信箱</div>
+            <input class="underline-input" style="width: 295px;" type="text" name="mail" placeholder="您的回答">
+        </section>
+
+        <section style="height: 104px;">
+            <div class="smalltitle-style required">生日</div>
+            <div style="font-size: 12px; color:rgba(172, 171, 171, 0.788);">日期</div>
+             <input class="underline-input" style="width: 140px;" type="date" name="birthday" placeholder="您的回答">
+        </section>
+
+        <section style="height: 104px;">
+            <div class="smalltitle-style">想跟老師說悄悄話</div>
+            <input class="underline-input" style="width: 100%" type="text" name="mail" placeholder="您的回答">
+        </section>
+
+        <section>
+            <div class="smalltitle-style">喜歡的顏色</div>
+            <div class="items-margin">
+                <label>
+                    <input type="radio" name="color" value="yellow">
+                    黃
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="radio" name="color" value="green">
+                    綠
+                </label>
+            </div>
+           <div class="items-margin">
+                <label>
+                    <input type="radio" name="color" value="red">
+                    紅
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <div class="smalltitle-style">喜歡吃的飲食類型</div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="Chinese">
+                    中式
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="Italian">
+                    義式
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="Japanese">
+                    日式
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="Korean">
+                    韓式
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="American">
+                    美式
+                </label>
+            </div>
+            <div class="items-margin">
+                <label>
+                    <input type="checkbox" name="checkbox-foodtype" id="" value="Thailand">
+                    泰式
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <div class="smalltitle-style">最想去的國家</div>
+            <select name="country" class="country-ddl">
+                <optgroup label="國家"></optgroup>
+                <option value="choose"selected disabled>選擇</option>
+                <option value="Japan" >日本</option>
+                <option value="Korea">韓國</option>
+                <option value="Thailand">泰國</option>
+                <option value="Germany">德國</option>
+                <option value="England">英國</option>
+                <option value="Canada">加拿大</option>
+                <option value="America">美國</option>
+            </select>
+
+        </section>
+        <div class="flex-row">
+            <button type="submit" class="btn-style">提交</button>
+            <button type="reset" class="btn-clear">清除表單</button>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
