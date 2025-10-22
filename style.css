@@ -1,5 +1,5 @@
 form {
-  width: 50%;
+  width: 640px;
   margin: 0 auto;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
@@ -152,13 +152,11 @@ section {
 }
 
 .flex-row {
-  /* width: 690px; */
+  width: 690px;
   display: flex; /* flex 容器，子元素水平排列 */
   flex-wrap: nowrap; /* 預設：不換行 */
-  /* margin: 0 auto; */
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .btn-style {
@@ -180,7 +178,6 @@ section {
 }
 
 .btn-clear {
-  margin-left: auto; /* 推到最右邊 */
   background-color: transparent; /* 無背景色 */
   border: none; /* 移除邊框 */
   cursor: pointer; /* 保留滑鼠指標效果 */
